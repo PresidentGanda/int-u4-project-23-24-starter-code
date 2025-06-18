@@ -1,44 +1,88 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #4b4a4a;
+    color: #867d7d;
     line-height: 1.6;
     padding: 20px;
 }
 
+
+button {
+    font-size: 25px;
+    padding: 10px;
+    border-width: 3px;
+    border-color: #2d3332;
+    font-style: bold;
+}
+.one,
+.three,
+.five {
+ background-color: rgb(35, 168, 17);
+}
+
+.two,
+.four,
+.six {
+    background-color: rgb(151, 113, 41);
+}
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: #af2020;
+    font-size: 65px;
+    font-style: bold;
 }
 
 /* Questions section styling */
-.questions {
-    background-color: #fff;
+.question1, 
+.question2,
+.question3 {
+    background-color: #000000;
     margin: 20px;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    text-align: center;
 }
 
 .questions h4 {
-    color: #666;
+    color: #978787;
 }
 
-.questions img {
-    width: 100%; /* Make images responsive */
-    height: auto;
+.question1 img,
+.question2 img,
+.question3 img {
+    width: 80%; /* Make images responsive */
+    height: 70%;
     border-radius: 8px;
     margin-top: 10px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Result section styling */
 .result {
+    font-size: 50px;
     background-color: #e2e2e2;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+    display: none; 
+}
+
+.mau,
+.doo,
+.gre,
+.vad{
+    display:none;
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top:40px;
+
 }
